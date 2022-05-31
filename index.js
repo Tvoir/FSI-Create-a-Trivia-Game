@@ -9,7 +9,7 @@ function playGame() {
         let question = questions [i]
         let userAnswer = window.prompt(question.text)
         if(userAnswer === question.correctAnswer) {
-            console.log('correct') 
+            console.log('Correct! keep it up!') 
             userScore = userScore + 10   
         }
     }
