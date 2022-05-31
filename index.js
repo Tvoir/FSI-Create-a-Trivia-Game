@@ -9,7 +9,8 @@ function playGame() {
         let question = questions [i]
         let userAnswer = window.prompt(question.text)
         if(userAnswer === question.correctAnswer) {
-            userScore = userScore + 10
+            console.log('correct') 
+            userScore = userScore + 10   
         }
     }
     window.alert('your score is: '+userScore)  
